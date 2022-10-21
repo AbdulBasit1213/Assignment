@@ -1,9 +1,9 @@
-class Automobile {
-    constructor (name, model, color, type){
-        this.name = "Car";
-        this.model = 2022;
-        this.color = "Grey";
-        this.type = "Automatic";
+class PersonAccount {
+    constructor(firstName, lastName, incomes, expenses){
+        this.firstName = "Abdul";
+        this.lastName = "Basit";
+        this.incomes = "2lac";
+        this.expenses = "";
     }
     move (a,b,c,d){
         this.a = a
@@ -13,6 +13,5 @@ class Automobile {
     }
 }
 
-const car = new Automobile ("Car, 2022, Grey, Automatic");
-
-console.log(car);
+const PersonAcc = new PersonAccount ("Abdul, Basit, 2lac") 
+console.log (PersonAcc)
